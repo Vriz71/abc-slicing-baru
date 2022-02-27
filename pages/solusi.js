@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import Navbar from './components/Navbar'
 
 export default function Solusi() {
@@ -85,7 +84,7 @@ export default function Solusi() {
                             tanpa perlu ada kerjaan tambahan?</p>
                         <button className='bg-main-color hover:bg-main-hover font-Nunito font-bold text-sm text-white rounded-lg p-3 mt-12'><span className='m-2'>Ajari mesin kami!</span></button>
                     </div>
-                    <img src='/solusi/Ml-img.svg' className='hidden md:block mt-10 md:w-80 md:mx-auto lg:-mt-7 lg:ml-20'/>
+                    <img src='/solusi/Ml-img.svg' className='hidden md:block mt-10 md:w-80 md:mx-auto lg:-mt-7 lg:ml-20' />
                 </div>
             </section>
 
@@ -125,14 +124,9 @@ export default function Solusi() {
 
             {/* Footer */}
             <div className="grid justify-items-center text-center md:w-2/5 md:mx-auto py-12 -mt-16">
-                <Image
-                    src='/footer.svg'
-                    alt='Footer'
-                    width={320}
-                    height={280}
-                />
+                <img src='/footer.svg' className='w-80' />
                 <p className='font-Nunito font-extra-bold text-3xl lg:text-4xl'>Apakah kamu siap?</p>
-                <div className='lg:w-96'>
+                <div className='w-80 lg:w-96'>
                     <p className='font-Nunito font-normal lg:text-sm lg:px-3 pt-3'>Beritahu kami apa yang mau kamu bangun atau kesulitan apa yang kamu hadapi</p>
                 </div>
                 <Link href="/hubungi">

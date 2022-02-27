@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import Navbar from './components/Navbar'
 
 export default function Carakerja() {
@@ -203,26 +202,26 @@ export default function Carakerja() {
                             </div>
 
                             <div>
-                            <div className='py-5 md:mx-3'>
-                                <p className='font-Nunito font-extra-bold text-main-color py-1'>Database</p>
-                                <p className='font-Nunito font-normal'>MySQL, PostgreSQL, Redis DB</p>
-                            </div>
-                            <div className='py-5 lg:py-1.5 lg:mt-1.5 md:-mt-2 md:mx-3'>
-                                <p className='font-Nunito font-extra-bold text-main-color py-1'>Framework CSS</p>
-                                <p className='font-Nunito font-normal'>Tailwind CSS, Bootstrap 5</p>
-                            </div>
-                            <div className='py-5 lg:py-1.5 lg:mt-1.5 md:-mt-2 md:mx-3'>
-                                <p className='font-Nunito font-extra-bold text-main-color py-1'>Stack</p>
-                                <p className='font-Nunito font-normal'>MERN, MEVN, MEAN, TALL</p>
-                            </div>
-                            <div className='py-5 lg:py-1.5 lg:mt-1.5 md:-mt-2 md:mx-3'>
-                                <p className='font-Nunito font-extra-bold text-main-color py-1'>Notification</p>
-                                <p className='font-Nunito font-normal'>Firebase</p>
-                            </div>
-                            <div className='py-5 lg:py-1.5 lg:mt-1.5 md:-mt-0.5 md:mx-3'>
-                                <p className='font-Nunito font-extra-bold text-main-color py-1'>Design</p>
-                                <p className='font-Nunito font-normal'>Figma, Zeplin</p>
-                            </div>
+                                <div className='py-5 md:mx-3'>
+                                    <p className='font-Nunito font-extra-bold text-main-color py-1'>Database</p>
+                                    <p className='font-Nunito font-normal'>MySQL, PostgreSQL, Redis DB</p>
+                                </div>
+                                <div className='py-5 lg:py-1.5 lg:mt-1.5 md:-mt-2 md:mx-3'>
+                                    <p className='font-Nunito font-extra-bold text-main-color py-1'>Framework CSS</p>
+                                    <p className='font-Nunito font-normal'>Tailwind CSS, Bootstrap 5</p>
+                                </div>
+                                <div className='py-5 lg:py-1.5 lg:mt-1.5 md:-mt-2 md:mx-3'>
+                                    <p className='font-Nunito font-extra-bold text-main-color py-1'>Stack</p>
+                                    <p className='font-Nunito font-normal'>MERN, MEVN, MEAN, TALL</p>
+                                </div>
+                                <div className='py-5 lg:py-1.5 lg:mt-1.5 md:-mt-2 md:mx-3'>
+                                    <p className='font-Nunito font-extra-bold text-main-color py-1'>Notification</p>
+                                    <p className='font-Nunito font-normal'>Firebase</p>
+                                </div>
+                                <div className='py-5 lg:py-1.5 lg:mt-1.5 md:-mt-0.5 md:mx-3'>
+                                    <p className='font-Nunito font-extra-bold text-main-color py-1'>Design</p>
+                                    <p className='font-Nunito font-normal'>Figma, Zeplin</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -276,12 +275,7 @@ export default function Carakerja() {
 
             {/* Footer */}
             <div className="grid justify-items-center text-center md:w-2/5 md:mx-auto mx-8 -mt-20 py-12 lg:py-16">
-                <Image
-                    src='/footer.svg'
-                    alt='Footer'
-                    width={320}
-                    height={280}
-                />
+                <img src='/footer.svg' className='w-80' />
                 <p className='font-Nunito font-extra-bold text-3xl lg:text-4xl'>Apakah kamu siap?</p>
                 <div className='lg:w-96'>
                     <p className='font-Nunito font-normal lg:text-sm lg:px-3 pt-3'>Beritahu kami apa yang mau kamu bangun atau kesulitan apa yang kamu hadapi</p>

@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import Navbar from './components/Navbar'
 
 export default function Home() {
@@ -145,13 +144,8 @@ export default function Home() {
 
 
       {/* Footer */}
-      <div className="grid justify-items-center text-center md:w-2/5 md:mx-auto ml-10 py-12 -mt-16">
-        <Image
-          src='/footer.svg'
-          alt='Footer'
-          width={340}
-          height={300}
-        />
+      <div className="grid justify-items-center text-center ml-10 py-12 -mt-16 md:w-2/5 md:mx-auto">
+        <img src='/footer.svg' className='w-80'/>
         <p className='font-Nunito font-extra-bold text-3xl lg:text-4xl'>Apakah kamu siap?</p>
         <div className='lg:w-96'>
           <p className='font-Nunito font-normal lg:text-sm lg:px-3 pt-3'>Beritahu kami apa yang mau kamu bangun atau kesulitan apa yang kamu hadapi</p>
